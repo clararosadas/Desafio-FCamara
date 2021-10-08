@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  background-color: rgb(250,116,0);
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  background: #EAEAEA;
+  color: rgb(250,116,0);
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.logo{
+  border-radius: 100%;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #232526, #414345);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 32px;
+  padding: 32px;
+}
+
+.informacoes-titulo {
+  font-weight: 700;
+  font-size: 36px;
+  list-style: none;
+}
+
+.informacoes-item {
+  font-weight: 400;
+  font-size: 24px;
+  list-style-type: disc;
+  line-height: 48px;
+}
+
+.agendar button {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #EAEAEA;
+  color: rgb(250,116,0);
+  border: 2px solid rgb(250,116,0);
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-top: 30px;
+}
